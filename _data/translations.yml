@@ -1,0 +1,15 @@
+en:
+  nav.brand: "Phoebe Tse"
+  services: "Services"
+  about: "About"
+  contact: "Contact"
+  languageSelector.aria: "Choose language"
+  languageSelector.text: "EN"
+  toggleNav.aria: "Toggle navigation"
+  close: "Close"
+  chooseLanguage: "Choose language"
+  languageSwitcher: "Read in Chinese"
+zh:
+  nav.brand: "謝凱婷",
+  services: "Services",
+  languageSelector.text: "中文"
