@@ -1,29 +1,32 @@
+---
+---
+{% assign t = site.data.translations[page.lang] %}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.text.title }}</title>
+    <title>{{ t.title }}</title>
 </head>
 <body>
 
     <header>
         <div style="font-weight: bold; font-size: 1.2rem;">Your Name Consulting</div>
-        <a href="{{ page.text.lang_btn_link }}" class="lang-btn">{{ page.text.lang_btn_text }}</a>
+        <a href="{{ t.lang_btn_link }}" class="lang-btn">{{ t.lang_btn_text }}</a>
     </header>
 
     <main>
-        <h1>{{ page.text.title }}</h1>
-        <p>{{ page.text.desc }}</p>
+        <h1>{{ t.title }}</h1>
+        <p>{{ t.desc }}</p>
         
-        <h2>{{ page.text.services_heading }}</h2>
+        <h2>{{ t.services_heading }}</h2>
         <ul>
-            <li>{{ page.text.s1 }}</li>
-            <li>{{ page.text.s2 }}</li>
-            <li>{{ page.text.s3 }}</li>
+            <li>{{ t.s1 }}</li>
+            <li>{{ t.s2 }}</li>
+            <li>{{ t.s3 }}</li>
         </ul>
 
-        <a href="mailto:your-email@example.com" class="cta-button">{{ page.text.cta }}</a>
+        <a href="mailto:your-email@example.com" class="cta-button">{{ t.cta }}</a>
     </main>
 
 </body>
