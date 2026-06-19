@@ -14,6 +14,7 @@ en:
   intro: "I'm pretty and cute and do wheelchair assessments to boot."
   jsUrl: js/custom.js
   lang_btn_text: "中文"
+  lang_btn_lang: "zh-HK"
   lang_btn_link: "/zh/"
   mobileMenuTitle: "Menu"
   mobileToggleBtnAriaLabel: "Toggle navigation"
@@ -26,4 +27,5 @@ zh-HK:
   cta: "預約顧問諮詢"
   jsUrl: /js/custom.js
   lang_btn_text: "English"
+  lang_btn_lang: "en"
   lang_btn_link: "/"
