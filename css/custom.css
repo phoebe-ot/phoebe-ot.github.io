@@ -2,5 +2,5 @@ html {
     scroll-behavior: smooth;
 }
 
-.zh-HK #navEnLang{display:none}
-.en #navZhLang{display:none}
+.en #navEnLang{display:none}
+.zh-HK #navZhLang{display:none}
