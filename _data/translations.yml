@@ -9,6 +9,7 @@ en:
   cssUrl: "css/custom.css"
   h1: "Need an occupational therapist in Edmonton?"
   intro: "I'm pretty and cute and do wheelchair assessments to boot."
+  jsUrl: js/custom.js
   lang_btn_text: "中文"
   lang_btn_link: "/zh/"
   mobileMenuTitle: "Menu"
@@ -18,7 +19,8 @@ en:
 zh-HK:
   title: "雙語商業顧問與諮詢服務"
   desc: "歡迎！我為本地企業提供專業的策略性建議和諮詢服務。憑藉流利的雙語能力，我致力於協助跨文化企業擴展業務、管理風險，並無縫橋接溝通隔閡。"
-  cssUrl: "../css/custom.css"
+  cssUrl: "/css/custom.css"
   cta: "預約顧問諮詢"
+  jsUrl: /js/custom.js
   lang_btn_text: "English"
   lang_btn_link: "/"
