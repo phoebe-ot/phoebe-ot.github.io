@@ -9,22 +9,22 @@
     <!-- End Google Tag Manager -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Phoebe Tse, OT" /><!-- TO DO -->
+    <meta name="description" content="{{ lang.metaDesc }}" />
     <!-- Open Graph -->
     <meta property="og:locale" content="en_US" />
     <meta property="og:title" content="{{ lang.title }}" />
     <meta property="og:description" content="{{ lang.socialMediaDesc }}" />
     <meta property="og:url" content="{{ lang.siteLocalizedUrl }}" />
-    <meta property="og:image" content="{{ keys.siteUrl }}" />
+    <meta property="og:image" content="{{ lang.socialMediaImgUrl }}" />
     <!-- Twitter/X -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{{ lang.title }}" />
     <meta name="twitter:description" content="{{ lang.socialMediaDesc }}" />
-    <meta name="twitter:image" content="{{ keys.siteUrl }}" />
+    <meta name="twitter:image" content="{{ lang.socialMediaImgUrl }}" />
     <!-- Canonical and Hreflang -->
     <link rel="canonical" href="{{ keys.siteUrl }}" />
     <link rel="alternate" hreflang="en" href="{{ keys.siteUrl }}" />
-    <link rel="alternate" hreflang="zh-HK" href="{{ keys.siteUrl }}zh/" />
+    <link rel="alternate" hreflang="zh-HK" href="{{ keys.siteUrl }}/zh/" />
     <link rel="alternate" hreflang="x-default" href="{{ keys.siteUrl }}" />
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.ico" />
@@ -56,7 +56,7 @@
                </div>
                <div class="d-flex">
                   <div class="dropdown d-lg-inline-block d-none">
-                      <a class="btn btn-outline-secondary" lang="{{ lang.lang_btn_lang }}" href="{{ lang.lang_btn_link }}">{{ lang.lang_btn_text }}</a>
+                      <a class="btn btn-outline-secondary" lang="{{ lang.theOtherLang }}" href="{{ lang.theOtherLangHomeUrl }}">{{ lang.lang_btn_text }}</a>
                   </div>
                   <button class="navbar-toggler ms-2" id="mobileNavToggle" type="button" aria-label="{{ lang.mobileToggleBtnAriaLabel }}">
                   <span class="navbar-toggler-icon"></span>
@@ -100,7 +100,7 @@
                               <a href="{{ lang.primaryCtaHref }}" class="btn btn-lg btn-primary w-100">{{ lang.primaryCta }}</a>
                           </div>
                           <div class="col-8 offset-2 offset-md-3 offset-lg-0 col-md-6">
-                              <a href="{{ lang.secondaryCtaHref }}" class="btn btn-lg btn-outline-primary w-100">{{ lang.secondaryCta }}</a>
+                              <a href="{{ lang.secondaryCtaHref }}" class="btn btn-lg btn-outline-primary w-100" lang="{{ lang.theOtherLang }}>{{ lang.secondaryCta }}</a>
                           </div>
                       </div>
                   </div>
