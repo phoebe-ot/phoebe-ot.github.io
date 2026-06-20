@@ -1,4 +1,4 @@
-siteUrl: &siteURL "https://phoebe-ot.github.io/"
+siteUrl: &siteUrl "https://phoebe-ot.github.io/"
 email: "feebitse@gmail.com"
 
 en:
@@ -22,7 +22,7 @@ en:
   services: "Services"
   serviceChineseSupportDesc: "Over 16,000 people in Edmonton speak Cantonese or Mandarin Chinese, including me. I understand that language is more than just the words spoken. It's also the culture."
   serviceChineseSupportTitle: "Full Cantonese and Mandarin Chinese support"
-  siteLocalizedUrl: *siteURL
+  siteLocalizedUrl: *siteUrl
   socialMediaDesc: ""
   socialMediaImgUrl: ""
   theOtherLang: "zh-HK"
@@ -31,8 +31,8 @@ en:
 zh-HK:
   title: "雙語商業顧問與諮詢服務"
   desc: "歡迎！我為本地企業提供專業的策略性建議和諮詢服務。憑藉流利的雙語能力，我致力於協助跨文化企業擴展業務、管理風險，並無縫橋接溝通隔閡。"
-  about: "About"
-  chooseLanguage: "Choose language"
+  about: ""
+  chooseLanguage: ""
   close: ""
   contact: "Contact"
   cssUrl: "/css/custom.css"
