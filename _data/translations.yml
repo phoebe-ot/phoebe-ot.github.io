@@ -13,31 +13,42 @@ en:
   intro: "I'm pretty and cute and do wheelchair assessments to boot."
   jsUrl: js/custom.js
   lang_btn_text: "中文"
-  lang_btn_lang: "zh-HK"
-  lang_btn_link: &zhLink "/zh/"
+  metaDesc: ""
   mobileMenuTitle: "Menu"
   mobileToggleBtnAriaLabel: "Toggle navigation"
   primaryCta: "Continue in English"
   primaryCtaHref: &firstSectionLink "#services"
   secondaryCta: ""
-  secondaryCtaHref: *zhLink
   services: "Services"
   serviceChineseSupportDesc: "Over 16,000 people in Edmonton speak Cantonese or Mandarin Chinese, including me. I understand that language is more than just the words spoken. It's also the culture."
   serviceChineseSupportTitle: "Full Cantonese and Mandarin Chinese support"
-  siteLocalizedUrl: *siteUrl
+  siteLocalizedUrl: *siteURL
   socialMediaDesc: ""
+  socialMediaImgUrl: ""
+  theOtherLang: "zh-HK"
+  theOtherLangHomeUrl: &zhHomeUrl "https://phoebe-ot.github.com/zh/"
 
 zh-HK:
   title: "雙語商業顧問與諮詢服務"
   desc: "歡迎！我為本地企業提供專業的策略性建議和諮詢服務。憑藉流利的雙語能力，我致力於協助跨文化企業擴展業務、管理風險，並無縫橋接溝通隔閡。"
+  about: "About"
+  chooseLanguage: "Choose language"
+  close: ""
+  contact: "Contact"
   cssUrl: "/css/custom.css"
+  h1: ""
+  intro: ""
   jsUrl: /js/custom.js
   lang_btn_text: "English"
-  lang_btn_lang: "en"
-  lang_btn_link: &enLink "/"
+  metaDesc: ""
+  mobileMenuTitle: ""
+  mobileToggleBtnAriaLabel: ""
   primaryCta: "預約顧問諮詢"
   primaryCtaHref: *firstSectionLink
   secondaryCta: "Switch to English"
-  secondaryCtaHref: *enLink
-  siteLocalizedUrl: "https://phoebe-ot.github.com/zh"
+  services: ""
+  siteLocalizedUrl: *zhHomeUrl
   socialMediaDesc: ""
+  socialMediaImgUrl: ""
+  theOtherLang: "en"
+  theOtherLangHomeUrl: *siteUrl
