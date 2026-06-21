@@ -1,6 +1,6 @@
 siteUrl: &siteUrl "https://phoebe-ot.github.io/"
 email: "feebitse@gmail.com"
-phone: '/<a href="tel:+17806957438">780-695-7438</a>/'
+phone: '<a href="tel:+17806957438">780-695-7438</a>'
 
 en:
   title: "Bilingual Business Consulting & Advisory"
