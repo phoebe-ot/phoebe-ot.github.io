@@ -3,8 +3,6 @@ email: "feebitse@gmail.com"
 phone: '<a href="tel:+17806957438">780-695-7438</a>'
 
 en:
-  title: "Bilingual Business Consulting & Advisory"
-  desc: "Welcome! I provide professional strategic advice and consultation services for local businesses. With deep fluency in multiple languages, I help cross-cultural enterprises scale, manage risks, and bridge communication gaps seamlessly."
   about: "About"
   chooseLanguage: "Choose language"
   close: "Close"
@@ -14,7 +12,6 @@ en:
   intro: "I'm pretty and cute and do wheelchair assessments to boot."
   jsUrl: js/custom.js
   lang_btn_text: "中文"
-  metaDesc: ""
   mobileMenuTitle: "Menu"
   mobileToggleBtnAriaLabel: "Toggle navigation"
   offcanvasAboutDesc: &placeholder "Brief description for SEO"
@@ -25,16 +22,11 @@ en:
   secondaryCta: "轉用中文"
   services: "Services"
   serviceChineseSupportDesc: "Over 16,000 people in Edmonton speak Cantonese or Mandarin Chinese, including me. I understand that language is more than just the words spoken. It's also the culture."
-  serviceChineseSupportTitle: "Full Cantonese and Mandarin Chinese support"
-  siteLocalizedUrl: *siteUrl
-  socialMediaDesc: ""
-  socialMediaImgUrl: ""
+  serviceChineseSupportTitle: "Cantonese and Mandarin Chinese support"
   theOtherLang: "zh-HK"
-  theOtherLangHomeUrl: &zhHomeUrl "https://phoebe-ot.github.io/zh/"
+  theOtherLangHomeUrl: "https://phoebe-ot.github.io/zh/"
 
 zh-HK:
-  title: "雙語商業顧問與諮詢服務"
-  desc: "歡迎！我為本地企業提供專業的策略性建議和諮詢服務。憑藉流利的雙語能力，我致力於協助跨文化企業擴展業務、管理風險，並無縫橋接溝通隔閡。"
   about: ""
   chooseLanguage: ""
   close: ""
@@ -44,7 +36,6 @@ zh-HK:
   intro: ""
   jsUrl: /js/custom.js
   lang_btn_text: "English"
-  metaDesc: ""
   mobileMenuTitle: ""
   mobileToggleBtnAriaLabel: ""
   offcanvasAboutDesc: ""
@@ -54,8 +45,5 @@ zh-HK:
   primaryCtaHref: *firstSectionLink
   secondaryCta: "Switch to English"
   services: ""
-  siteLocalizedUrl: *zhHomeUrl
-  socialMediaDesc: ""
-  socialMediaImgUrl: ""
   theOtherLang: "en"
   theOtherLangHomeUrl: *siteUrl
