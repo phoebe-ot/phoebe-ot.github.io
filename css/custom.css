@@ -1,1 +1,1 @@
-:root{--bs-body-font-family:'Cormorant',serif;--bs-body-font-weight:500;--bs-body-font-size:1.25rem}html{scroll-behavior:smooth}h1,h2,h3,h4,h5,h6{font-weight:700!important}
+:root{--bs-body-font-family:'Cormorant',serif;--bs-body-font-weight:500;--bs-body-font-size:1.25rem}html{scroll-behavior:smooth}h1,h2,h3,h4,h5,h6{font-weight:700!important}@media(min-width:1200px){.card__icon{max-width:3.5rem}}
