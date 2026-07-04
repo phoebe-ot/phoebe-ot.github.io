@@ -27,7 +27,7 @@ en:
   offcanvasContactDesc: *placeholder
   offcanvasServicesDesc: *placeholder
   primaryCta: "Continue in English"
-  primaryCtaHref: &firstSectionLink "#services"
+  primaryCtaHref: &firstSectionLink "#mainContent"
   secondaryCta: "轉用中文"
   services: "Services"
   theOtherLang: "zh-HK"
