@@ -4,10 +4,19 @@ phone: '<a href="tel:+17806957438">780-695-7438</a>'
 
 en:
   about: "About"
+  aadlAuthorizerHeading: "Alberta Aids to Daily Living (AADL) authorizer"
+  aadlAuthorizerText: "As an AADL authorizer, I can help you get government funding to pay for equipment that will . These include wheelchairs, walkers and other mobility equipment; bathroom aids; orthotics; compression stockings and more."
+  availabilityHeading: "Flexible appointments"
+  availabilityText: "Book with me when you’re ready and I will help you get started on getting the equipment, adaptations and interventions you need right away."
+  bio: "<p>Being an occupational therapist is how I channel my passion for helping others. Not just through the act of helping, but by constantly and actively learning more ways to help more people. Being equipped and empowered to do everything I can is not just something I want for myself, but also for the clients I treat.</p><p>If you are facing barriers related to age, injury, illness or disability that affect your quality of life, I can help you remove those barriers. By developing personalized and client-centred therapies and interventions that are unique to you - your values, your goals and your potential - I am dedicated to restoring your ability to enjoy everyday life independently, meaningfully and with dignity.</p>"
+  chineseBilingualHeading: "Bilingual Chinese (Cantonese and Mandarin)"
+  chineseBilingualText: "My services as an occupational therapist are fully available for Cantonese and Mandarin speakers."
   chooseLanguage: "Choose language"
   close: "Close"
   contact: "Contact"
   cssUrl: "css/custom.css"
+  experienceHeading: "10+ years helping adults and seniors"
+  experienceText: "My accumulated knowledge from working in acute care, continuing care, home and community care, assisted living and palliative care has equipped me to help adults and seniors get the most out of Alberta’s healthcare system."
   h1: "Need an occupational therapist in Edmonton?"
   intro: "I'm pretty and cute and do wheelchair assessments to boot."
   jsUrl: js/custom.js
@@ -21,10 +30,9 @@ en:
   primaryCtaHref: &firstSectionLink "#services"
   secondaryCta: "轉用中文"
   services: "Services"
-  serviceChineseSupportDesc: "Over 16,000 people in Edmonton speak Cantonese or Mandarin Chinese, including me. I understand that language is more than just the words spoken. It's also the culture."
-  serviceChineseSupportTitle: "Cantonese and Mandarin Chinese support"
   theOtherLang: "zh-HK"
   theOtherLangHomeUrl: "https://phoebe-ot.github.io/zh/"
+  whyBook: "Why book with me?"
 
 zh-HK:
   about: ""
