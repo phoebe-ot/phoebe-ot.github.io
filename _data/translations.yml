@@ -15,7 +15,7 @@ en:
   chineseBilingualText: "My services as an occupational therapist are fully available for Cantonese and Mandarin speakers."
   chooseLanguage: "Choose language"
   close: "Close"
-  contact: "Contact"
+  contact: &contact "Contact"
   cssUrl: "css/custom.css"
   experienceHeading: "10+ years helping adults and seniors"
   experienceText: "My accumulated knowledge from working in acute care, continuing care, home and community care, assisted living and palliative care has equipped me to help adults and seniors get the most out of Alberta’s healthcare system."
@@ -25,9 +25,12 @@ en:
   lang_btn_text: "中文"
   mobileMenuTitle: "Menu"
   mobileToggleBtnAriaLabel: "Toggle navigation"
-  offcanvasAboutDesc: &placeholder "Brief description for SEO"
-  offcanvasContactDesc: *placeholder
-  offcanvasServicesDesc: *placeholder
+  navTopLvl01: "About"
+  navTopLvl02: "Services"
+  navTopLvl03: *contact
+  navTopLvlDesc01: &placeholder "Brief description for SEO"
+  navTopLvlDesc02: *placeholder
+  navTopLvlDesc03: *placeholder
   primaryCta: "Continue in English"
   primaryCtaHref: &firstSectionLink "#mainContent"
   secondaryCta: "轉用中文"
@@ -55,23 +58,12 @@ en:
   whyBook: "Why book with me?"
 
 zh-HK:
-  aboutIntro: ""
-  chooseLanguage: ""
-  close: ""
   contact: "Contact"
   cssUrl: "/css/custom.css"
-  h1: ""
-  intro: ""
   jsUrl: /js/custom.js
   lang_btn_text: "English"
-  mobileMenuTitle: ""
-  mobileToggleBtnAriaLabel: ""
-  offcanvasAboutDesc: ""
-  offcanvasContactDesc: ""
-  offcanvasServicesDesc: ""
   primaryCta: "預約顧問諮詢"
   primaryCtaHref: *firstSectionLink
   secondaryCta: "Switch to English"
-  services: ""
   theOtherLang: "en"
   theOtherLangHomeUrl: *siteUrl
