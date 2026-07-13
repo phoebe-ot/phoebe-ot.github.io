@@ -3,7 +3,7 @@ email: "feebitse@gmail.com"
 phone: '<a href="tel:+17806957438">780-695-7438</a>'
 
 en:
-  aboutIntro: "Age, injury, illness and disability add barriers to your quality of life. <br class="d-none d-md-inline"/>Get dependable and accessible expertise to help remove them."
+  aboutIntro: 'Age, injury, illness and disability add barriers to your quality of life. <br class="d-none d-md-inline"/>Get dependable and accessible expertise to help remove them.'
   aadlAuthorizerHeading: "Alberta Aids to Daily Living (AADL) authorizer"
   aadlAuthorizerText: "As an AADL authorizer, I can help you get government funding to pay for equipment that will . These include wheelchairs, walkers and other mobility equipment; bathroom aids; orthotics; compression stockings and more."
   availabilityHeading: "Flexible availability for appointments"
