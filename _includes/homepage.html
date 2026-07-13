@@ -20,39 +20,11 @@
 <div id="mainContent">
    <section id="about" class="py-4">
       <div class="container-xl overflow-hidden">
-         <h2 class="mb-4">{{ lang.about }}</h2>
-         <div class="row">
-            <div class="col-6">
-               <h3>Test</h3>
-            </div>
-            <div class="col-6">
-               {{ lang.bio }}
-            </div>
-         </div>
-         <p class="h3 text-lg-center">{{ lang.whyBook }}</p>
-         <div class="row g-5">
+         <p class="h2 fw-bold mb-4 mb-lg-5 text-center">{{ lang.aboutIntro }}</h2>
+         <div class="row pb-lg-5 g-4 border-bottom">
             <div class="col-12 col-sm-6 col-xl-3">
-               <div class="card mb-3 border-0 bg-transparent">
-                  <div class="row g-0">
-                     <div class="col-2 col-xl-12">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="card__icon bi bi-coin" viewBox="0 0 16 16">
-                           <path d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518z"/>
-                           <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
-                           <path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11m0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12"/>
-                        </svg>
-                     </div>
-                     <div class="col-10 col-xl-12">
-                        <div class="card-body px-0 ps-3 px-xl-0 py-0 pt-xl-3">
-                           <h4 class="card-title">{{ lang.aadlAuthorizerHeading }}</h4>
-                           <p class="card-text">{{ lang.aadlAuthorizerText }}</p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-12 col-sm-6 col-xl-3">
-               <div class="card mb-3 border-0 bg-transparent">
-                  <div class="row g-0">
+               <div class="card h-100">
+                  <div class="row g-0 p-3">
                      <div class="col-2 col-xl-12">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="card__icon bi bi-clipboard2-heart" viewBox="0 0 16 16">
                            <path d="M10.058.501a.5.5 0 0 0-.5-.501h-2.98c-.276 0-.5.225-.5.501A.5.5 0 0 1 5.582 1a.497.497 0 0 0-.497.497V2a.5.5 0 0 0 .5.5h4.968a.5.5 0 0 0 .5-.5v-.503A.497.497 0 0 0 10.555 1a.5.5 0 0 1-.497-.499"/>
@@ -62,7 +34,7 @@
                      </div>
                      <div class="col-10 col-xl-12">
                         <div class="card-body px-0 ps-3 px-xl-0 py-0 pt-xl-3">
-                           <h4 class="card-title">{{ lang.experienceHeading }}</h4>
+                           <h2 class="h4 card-title">{{ lang.experienceHeading }}</h2>
                            <p class="card-text">{{ lang.experienceText }}</p>
                         </div>
                      </div>
@@ -70,8 +42,27 @@
                </div>
             </div>
             <div class="col-12 col-sm-6 col-xl-3">
-               <div class="card mb-3 border-0 bg-transparent">
-                  <div class="row g-0">
+               <div class="card h-100">
+                  <div class="row g-0 p-3">
+                     <div class="col-2 col-xl-12">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="card__icon bi bi-coin" viewBox="0 0 16 16">
+                           <path d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518z"/>
+                           <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                           <path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11m0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12"/>
+                        </svg>
+                     </div>
+                     <div class="col-10 col-xl-12">
+                        <div class="card-body px-0 ps-3 px-xl-0 py-0 pt-xl-3">
+                           <h2 class="card-title">{{ lang.aadlAuthorizerHeading }}</h2>
+                           <p class="card-text">{{ lang.aadlAuthorizerText }}</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+               <div class="card h-100">
+                  <div class="row g-0 p-3">
                      <div class="col-2 col-xl-12">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="card__icon bi bi-calendar4-week" viewBox="0 0 16 16">
                            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
@@ -80,7 +71,7 @@
                      </div>
                      <div class="col-10 col-xl-12">
                         <div class="card-body px-0 ps-3 px-xl-0 py-0 pt-xl-3">
-                           <h4 class="card-title">{{ lang.availabilityHeading }}</h4>
+                           <h2 class="h4 card-title">{{ lang.availabilityHeading }}</h2>
                            <p class="card-text">{{ lang.availabilityText }}</p>
                         </div>
                      </div>
@@ -88,8 +79,8 @@
                </div>
             </div>
             <div class="col-12 col-sm-6 col-xl-3">
-               <div class="card mb-3 border-0 bg-transparent">
-                  <div class="row g-0">
+               <div class="card h-100">
+                  <div class="row g-0 p-3">
                      <div class="col-2 col-xl-12">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="card__icon bi bi-translate" viewBox="0 0 16 16">
                            <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286zm1.634-.736L5.5 3.956h-.049l-.679 2.022z"/>
@@ -98,7 +89,7 @@
                      </div>
                      <div class="col-10 col-xl-12">
                         <div class="card-body px-0 ps-3 px-xl-0 py-0 pt-xl-3">
-                           <h4 class="card-title">{{ lang.chineseBilingualHeading }}</h4>
+                           <h2 class="h4 card-title">{{ lang.chineseBilingualHeading }}</h2>
                            <p class="card-text">{{ lang.chineseBilingualText }}</p>
                         </div>
                      </div>
@@ -106,33 +97,90 @@
                </div>
             </div>
          </div>
+         <div class="row my-5 g-lg-3">
+            <div class="col-sm-6">
+               <img src="" class="img-fluid rounded" alt="{{ lang.bioImgAltText }}">
+            </div>
+            <div class="col-sm-6">
+               <h2 class="h4 card-title mt-3 mt-lg-0">{{ lang.bioHeading }}</h2>
+               {{ lang.bio }}
+            </div>
+         </div>
       </div>
    </section>
    <section id="services" class="bg-light py-4">
       <div class="container-xl overflow-hidden">
-         <h2 class="mb-4">{{ lang.services }}</h2>
+         <p class="h2 mb-5">{{ lang.servicesIntro }}</h2>
          <div class="row gy-4 gx-5">
             <div class="col-12 col-sm-6 col-lg-4">
                <div class="card h-100">
                   <div class="card-body">
-                     <h3 class="card-title">Card title</h3>
-                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                     <h3 class="h4 card-title">{{ lang.serviceHeading01 }}</h3>
+                     <p class="card-text">{{ lang.serviceText01 }}</p>
                   </div>
                </div>
             </div>
             <div class="col-12 col-sm-6 col-lg-4">
                <div class="card h-100">
                   <div class="card-body">
-                     <h3 class="card-title">Card title</h3>
-                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                     <h3 class="h4 card-title">{{ lang.serviceHeading02 }}</h3>
+                     <p class="card-text">{{ lang.serviceText02 }}</p>
                   </div>
                </div>
             </div>
             <div class="col-12 col-sm-6 col-lg-4">
                <div class="card h-100">
                   <div class="card-body">
-                     <h3 class="card-title">{{ lang.serviceChineseSupportTitle }}</h3>
-                     <p class="card-text">{{ lang.serviceChineseSupportDesc }}</p>
+                     <h3 class="h4 card-title">{{ lang.serviceHeading03 }}</h3>
+                     <p class="card-text">{{ lang.serviceText03 }}</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+               <div class="card h-100">
+                  <div class="card-body">
+                     <h3 class="h4 card-title">{{ lang.serviceHeading04 }}</h3>
+                     <p class="card-text">{{ lang.serviceText04 }}</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+               <div class="card h-100">
+                  <div class="card-body">
+                     <h3 class="h4 card-title">{{ lang.serviceHeading05 }}</h3>
+                     <p class="card-text">{{ lang.serviceText05 }}</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+               <div class="card h-100">
+                  <div class="card-body">
+                     <h3 class="h4 card-title">{{ lang.serviceHeading06 }}</h3>
+                     <p class="card-text">{{ lang.serviceText06 }}</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+               <div class="card h-100">
+                  <div class="card-body">
+                     <h3 class="h4 card-title">{{ lang.serviceHeading07 }}</h3>
+                     <p class="card-text">{{ lang.serviceText07 }}</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+               <div class="card h-100">
+                  <div class="card-body">
+                     <h3 class="h4 card-title">{{ lang.serviceHeading08 }}</h3>
+                     <p class="card-text">{{ lang.serviceText08 }}</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+               <div class="card h-100">
+                  <div class="card-body">
+                     <h3 class="h4 card-title">{{ lang.serviceHeading09 }}</h3>
+                     <p class="card-text">{{ lang.serviceText09 }}</p>
                   </div>
                </div>
             </div>
