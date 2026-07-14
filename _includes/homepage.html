@@ -208,10 +208,21 @@
       </div>
    </section>
    <section id="contact" class="py-4">
-      <div class="container-xl">
-         <h2 class="mt-5 mb-4">{{ lang.contact }}</h2>
+      <div class="container-xl overflow-hidden">
+         <h2 class="mt-5 mb-4 text-center">{{ lang.contact }}</h2>
          <div class="row">
-            <div class="col-4">
+            <div class="col-12 col-md-6 offset-md-3">
+               <form action="" method="POST" class="border p-3 mb-4">
+                  <div class="mb-4">
+                     <label for="contactEmail" class="form-label">Your email <span aria-hidden="true">(required)</span></label>
+                     <input type="email" class="form-control" name="email" id="contactEmail" required aria-required="true">
+                  </div>
+                  <div class="mb-4">
+                     <label for="contactMessage" class="form-label">Your message <span aria-hidden="true">(required)</span></label>
+                     <textarea class="form-control" name="message" id="contactMessage" required aria-required="true"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-lg">Get in touch</button>
+               </form>
                <p>{{ keys.phone }}</p>
             </div>
          </div>
