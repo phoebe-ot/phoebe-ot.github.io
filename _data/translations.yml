@@ -32,9 +32,9 @@ en:
   navTopLvl01: "About"
   navTopLvl02: "Services"
   navTopLvl03: *contact
-  navTopLvlDesc01: &placeholder "Brief description for SEO"
-  navTopLvlDesc02: *placeholder
-  navTopLvlDesc03: *placeholder
+  navTopLvlDesc01: "I am an experienced occupational therapist and AADL authorizer. Find out how that can help you."
+  navTopLvlDesc02: "Discover the range of occupational therapy services that I can offer adults and seniors."
+  navTopLvlDesc03: "Questions? Interested in booking an appointment with me? I'm ready when you are. Get in touch!"
   primaryCta: "Continue in English"
   primaryCtaHref: &firstSectionLink "#mainContent"
   secondaryCta: "轉用中文"
